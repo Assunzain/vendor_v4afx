@@ -1,12 +1,12 @@
-Non root viper4androidFX for Raphael
+Non root viper4androidFX for X01AD
 
 v.2.7.2.1
 
-Add to *.mk
+Add to device.mk
 ```$(call inherit-product, vendor/v4afx/config.mk)```
 
 And add support as this:
-https://github.com/DanipunK1/device_xiaomi_raphael/commit/6eb4894483095fe26bd844544ec3d0fa4440cd44
+https://github.com/Assunzain/device_asus_X01AD/commit/541d30e47c5784f7b988b3bb51d7da0dc90e3cb4
 
 All thanks to the ViPER4Android FX Team.
 ViPER4Android FX Channels:

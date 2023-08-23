@@ -2,7 +2,7 @@ Non root viper4androidFX for X01AD
 
 v.2.7.2.1
 
-Add to device.mk
+Add to *.mk
 ```$(call inherit-product, vendor/v4afx/config.mk)```
 
 And add support as this:

@@ -10,5 +10,7 @@ https://github.com/Assunzain/device_asus_X01AD/commit/541d30e47c5784f7b988b3bb51
 
 All thanks to the ViPER4Android FX Team.
 ViPER4Android FX Channels:
+
 Updates: https://t.me/ViPER4AndroidFXchannel
+
 Support: https://t.me/ViPER4AndroidFX

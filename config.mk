@@ -14,6 +14,8 @@
 
 VENDOR_PATH := vendor/v4afx
 
+RELAX_USES_LIBRARY_CHECK := true
+
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-viper
 
 PRODUCT_COPY_FILES += \

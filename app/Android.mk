@@ -1,11 +1,11 @@
-LOCAL_PATH := $(call my-dir)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := v4afx
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_SRC_FILES := v4afx/v4afx.apk
-LOCAL_VENDOR_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := AudioFX
-include $(BUILD_PREBUILT)
+android_app_import {
+	name: "Viper4fx",
+	owner: "Viper4fx",
+	apk: "v4afx/v4afx.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	overrides: ["AudioFX"],
+}

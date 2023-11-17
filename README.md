@@ -1,9 +1,11 @@
 Non root viper4androidFX for X01AD
 
-v.2.7.2.1
+# Update v5.2
 
 Add to <codename>_X01AD.mk
+
 # set viper4fx
+
 $(call inherit-product, vendor/v4afx/config.mk)
 
 

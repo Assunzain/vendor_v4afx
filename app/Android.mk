@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 android_app_import {
 	name: "Viper4fx",
 	owner: "Viper4fx",
